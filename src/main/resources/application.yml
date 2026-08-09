@@ -1,1 +1,19 @@
-spring.application.name=user-match
+spring:
+  application:
+    name: user-match
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/usermatch?serverTimezone=Asia/Qingdao
+    username: root
+    password: 152142
+
+
+
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+
